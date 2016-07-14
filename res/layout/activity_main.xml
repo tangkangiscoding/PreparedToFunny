@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.newworld.dmsapp2.activity.MainActivity"
+    tools:ignore="MergeRootFrame" >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical" >
+    <include layout="@layout/titlebar_none" />
+    <!-- 上边主页面 -->
+
+	<FrameLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+   <!--  <fragment
+        android:id="@+id/main_fragment_home"
+        android:name="com.newworld.dmsapp2.fragment.MainHomeFragment"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="10" />
+
+    <fragment
+        android:id="@+id/main_fragment_message"
+        android:name="com.newworld.dmsapp2.fragment.MainMessageFragment"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="10" />
+
+
+    <fragment
+        android:id="@+id/main_fragment_setting"
+        android:name="com.newworld.dmsapp2.fragment.MainSettingFragment"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="10" /> -->
+
+   
+    <!-- 底部菜单页面 -->
+ 
+<View
+       android:layout_width="fill_parent"
+       android:layout_height="1px"  
+       android:background="?android:attr/listDivider"  
+    />
+   
+       <FrameLayout 
+        android:layout_width="fill_parent"
+         android:layout_height="wrap_content">
+         
+      <!--   <LinearLayout
+        android:id="@+id/main_button_ly"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="visible" >
+
+        <Button
+                  style="@style/MainMenuRadioButtonStyle"
+                  android:id="@+id/main_bt_home"
+                  android:drawableTop="@drawable/main_radiobutton_home"
+                  android:text="dga1"
+                  android:textColor="@drawable/main_radiobutton_textcolor"
+                  android:visibility="invisible"
+                  />
+
+        <Button
+                  style="@style/MainMenuRadioButtonStyle"
+                  android:id="@+id/main_bt_sight"
+                  android:drawableTop="@drawable/main_radiobutton_message"
+                  android:text="@string/main_radiobutton_sight_str"
+                  android:textColor="@drawable/main_radiobutton_textcolor"
+                  />
+		
+        <Button
+                  style="@style/MainMenuRadioButtonStyle"
+                  android:id="@+id/main_bt_people"
+                  android:drawableTop="@drawable/main_radiobutton_setting"         
+                  android:text="@string/main_radiobutton_people_str"
+                  android:textColor="@drawable/main_radiobutton_textcolor"
+				  android:visibility="invisible"
+                  />
+        <Button
+                  style="@style/MainMenuRadioButtonStyle"
+                  android:id="@+id/main_bt_share"
+                  android:drawableTop="@drawable/main_radiobutton_message"
+                  android:text="@string/main_radiobutton_share_str"
+                  android:textColor="@drawable/main_radiobutton_textcolor"
+                  />
+		
+        <Button
+                  style="@style/MainMenuRadioButtonStyle"
+                  android:id="@+id/main_bt_my"
+                  android:drawableTop="@drawable/main_radiobutton_setting"         
+                  android:text="@string/main_radiobutton_my_str"
+                  android:textColor="@drawable/main_radiobutton_textcolor"
+				  android:visibility="invisible"
+                  />
+    </LinearLayout> -->
+     <RadioGroup
+        android:id="@+id/main_radiogroup"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <RadioButton
+                  style="@style/MainMenuRadioButtonStyle"
+                  android:id="@+id/main_radio_home"
+                  android:drawableTop="@drawable/main_radiobutton_home"
+                  android:text="@string/main_radiobutton_home_str"
+                  android:textColor="@drawable/main_radiobutton_textcolor"
+                  android:checked="true" 
+                  />
+
+        <RadioButton
+                  style="@style/MainMenuRadioButtonStyle"
+                  android:id="@+id/main_radio_sight"
+                  android:drawableTop="@drawable/main_radiobutton_message"
+                  android:text="@string/main_radiobutton_sight_str"
+                  android:textColor="@drawable/main_radiobutton_textcolor"
+                  />
+		
+        <RadioButton
+                  style="@style/MainMenuRadioButtonStyle"
+                  android:id="@+id/main_radio_people"
+                  android:drawableTop="@drawable/main_radiobutton_people"         
+                  android:text="@string/main_radiobutton_people_str"
+                  android:textColor="@drawable/main_radiobutton_textcolor"
+
+                  />
+         <RadioButton
+                  style="@style/MainMenuRadioButtonStyle"
+                  android:id="@+id/main_radio_share"
+                  android:drawableTop="@drawable/main_radiobutton_sos"
+                  android:text="@string/main_radiobutton_share_str"
+                  android:textColor="@drawable/main_radiobutton_textcolor"
+                  />
+		
+        <RadioButton
+                  style="@style/MainMenuRadioButtonStyle"
+                  android:id="@+id/main_radio_my"
+                  android:drawableTop="@drawable/main_radiobutton_setting"         
+                  android:text="@string/main_radiobutton_my_str"
+                  android:textColor="@drawable/main_radiobutton_textcolor"
+
+                  />
+    </RadioGroup>
+      
+    </FrameLayout>
+</LinearLayout>
+</FrameLayout>

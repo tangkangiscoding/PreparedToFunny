@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="欢迎来到排队小助手~"
+        android:textColor="@color/nw_bt_blue"
+        android:textSize="20dp"
+        android:layout_gravity="center"/>
+   <!--  <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/fresher10"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/fresher11"/> -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#707070"
+        android:lineSpacingExtra="10dp"
+        android:background="@drawable/search_sight_mid_corner"
+        android:padding="5dp"
+        android:text="本应用适用于生活各个角落，例如：景点，医院，银行，等等需要耗时排队的场景，选择对应的点击进去排队预约！"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="150dp"
+        android:layout_gravity="center"
+        android:textColor="#707070"
+        android:padding="5dp"
+        android:text="左滑继续"/>
+
+</LinearLayout>

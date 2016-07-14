@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="@drawable/sos_help12" />
+
+    <LinearLayout
+        android:id="@+id/sos_ly"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/ly_sos1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/search_sight_top"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <ImageButton
+                android:id="@+id/sbtn_sos1"
+                android:layout_width="8dp"
+                android:layout_height="8dp"
+                android:background="@drawable/blue_dot"
+                android:clickable="true" />
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:gravity="left|center"
+                android:text="SOS"
+                android:textColor="@color/nw_bt_red"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_marginLeft="50dp"
+                android:visibility="invisible"
+                android:src="@drawable/right_item" />
+        </LinearLayout>
+
+        <!--
+                <LinearLayout
+                    android:id="@+id/ly_ticket2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/search_sight_mid"
+                    android:gravity="center"
+                    android:orientation="horizontal" >
+
+                    <ImageButton
+                        android:id="@+id/sbtn_order1"
+                        android:layout_width="8dp"
+                        android:layout_height="8dp"
+                        android:background="@drawable/gray_dot0"
+                        android:clickable="true" />
+
+                    <TextView
+                        android:layout_width="200dp"
+                        android:layout_height="20dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="1dp"
+                        android:gravity="left"
+                        android:text="时间：09：00~18:00 18:00~22:00"
+                        android:textColor="@color/nw_bg_black"
+                        android:textSize="12dp" />
+
+                    <ImageView
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:layout_marginLeft="50dp"
+                        android:src="@drawable/right_item" />
+                </LinearLayout>
+        -->
+
+        <LinearLayout
+            android:id="@+id/ly_sos3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/search_sight_bottom"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <ImageButton
+                android:id="@+id/sbtn_sos3"
+                android:layout_width="8dp"
+                android:layout_height="8dp"
+                android:layout_gravity="top"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/gray_dot0"
+                android:clickable="true" />
+
+            <TextView
+                android:layout_width="240dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="1dp"
+                android:text="提示：点击SOS求救信号，我们会获取您的地理位置并向临近的警察局或保安处发出求救通知，切实保障您的安全。"
+                android:textColor="@color/nw_bg_black"
+                android:textSize="16dp" />
+
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_gravity="top"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="1dp"
+                android:visibility="invisible"
+                android:src="@drawable/right_item" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

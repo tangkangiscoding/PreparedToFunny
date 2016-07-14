@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    
+  <!--   <TextView
+        android:id="@+id/txtLabel"
+         android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		
+        android:paddingLeft="10dp"
+    	android:paddingRight="10dp"
+        android:textSize="20dp"
+        android:text="历史浏览记录"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/nw_bg_gray"
+        />
+    
+    <ListView 
+        android:id="@+id/history_list"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:paddingLeft="10dp"
+    	android:paddingRight="10dp"
+        android:background="@drawable/detail_bg"
+        />
+     -->
+<ImageView android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"/>   
+</LinearLayout>

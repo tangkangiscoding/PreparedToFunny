@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+   <!--  <item android:drawable="@drawable/search3" android:state_pressed="false"/>
+    <item android:drawable="@drawable/search1" android:state_pressed="true"/>
+    没有焦点时的背景图片
+    <item android:drawable="@drawable/search3" android:state_window_focused="false"/>
+    选中时的图片背景
+    <item android:drawable="@drawable/search1" android:state_selected="true"/>
+    获得焦点时的图片背景
+    <item android:drawable="@drawable/search1" android:state_focused="true"/> -->
+    
+    <item android:drawable="@drawable/search1" android:state_checked="true"/>
+ <!-- pressed -->
+    <item android:drawable="@drawable/search1" android:state_focused="true"/>
+ <!-- focused -->
+    <item android:drawable="@drawable/search3"/>
+ <!-- default -->
+
+</selector>

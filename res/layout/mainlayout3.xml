@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+   
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:text="人流动态"
+        android:textColor="@color/nw_bt_blue"
+        android:textSize="20dp"
+        android:layout_gravity="center"/>
+    <!--  <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:src="@drawable/fresher301"/>
+     </LinearLayout> -->
+     <LinearLayout 
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="10dp"
+         android:layout_marginBottom="10dp"
+         android:gravity="center"
+         android:orientation="horizontal"
+         >
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_gravity="center"
+              android:gravity="center"
+              android:textSize="15dp"
+              android:padding="5dp"
+              android:text="掌握全局，合理游玩"
+              android:background="@drawable/search_sight_mid_corner"
+              android:textColor="#909090"
+         />
+     </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:text="一键SOS"
+        android:textColor="@color/nw_bt_blue"
+        android:textSize="20dp"
+        android:layout_gravity="center"/>
+       <!-- <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <ImageView
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:src="@drawable/fresher401"/>
+     <ImageView
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:src="@drawable/fresher402"/>
+    </LinearLayout> -->
+    <LinearLayout 
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="10dp"
+         android:layout_marginBottom="20dp"
+         android:layout_marginLeft="20dp"
+         android:layout_marginRight="20dp"
+         android:orientation="horizontal"
+         >
+          <TextView
+               android:layout_weight="1"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:gravity="center"
+              android:textSize="10dp"
+              android:textColor="#909090"
+              android:layout_marginRight="5dp"
+               android:padding="5dp"
+              android:background="@drawable/search_sight_mid_corner"
+              android:text="点击SOS进入下一步"
+         />
+           <View
+              android:layout_width="40dp"
+              android:layout_height="2dp"
+              android:layout_gravity="center"
+              android:background="#c0c0c0"/>
+         <TextView
+              android:layout_weight="1"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:gravity="center"
+              android:textSize="10dp"
+              android:textColor="#909090"
+              android:layout_marginLeft="5dp"
+              android:padding="5dp"
+              android:background="@drawable/search_sight_mid_corner"
+              android:text="点击电话图案即刻拨打求救电话"
+         />
+     </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="#707070"
+        android:background="@drawable/search_sight_mid_corner"
+        android:padding="5dp"
+        android:text="“人流动态”便于您掌握周围景点的人流情况，合理选择游玩的项目。“一键SOS”以防您遇到紧急情况，选择SOS后点击电话图案即可拨打求救电话，或分享您当时的位置，及时告知他人以便营救。"/>
+    <Button
+        android:id="@+id/tosos"
+        android:background="@drawable/button_blue"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/nw_bg_white"
+        android:text="探索新的旅程···"
+        android:textSize="16dp" />
+
+</LinearLayout>
+
+     
+

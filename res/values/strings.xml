@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">排队小助手</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="main_radiobutton_home_str">主页</string>
+	<string name="main_radiobutton_sight_str">排队预约</string>
+	<string name="main_radiobutton_people_str">人流动态</string>
+	<string name="main_radiobutton_share_str">一键SOS</string>
+	<string name="main_radiobutton_my_str">我的</string>
+	<string name="search_hint">请输入搜索内容</string>
+	<string name="app_title">游备而来</string>
+    <string name="location">位置分享</string>
+    <string name="share">分享</string>
+    <string name="no_access_current_location">暂未获取到您当前的位置，请稍后...</string>
+     <string name="desc_list_item_icon">SlidingMenu</string>
+</resources>
